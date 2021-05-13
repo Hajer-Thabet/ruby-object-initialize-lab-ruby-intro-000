@@ -7,13 +7,12 @@ class Dog
   end
 
 
-  def nameb=(nameb)
-    name, breed=nameb.split
-    @name=name
+  def breed=breed
+  
     @breed=breed
   end
-  def nameb
-     "#{@name} #{@breed}".strip
+  def breed
+     @breed
    end
 end
 fido = Dog.new("Fido", "Pug")
