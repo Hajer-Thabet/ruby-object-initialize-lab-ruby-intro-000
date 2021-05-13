@@ -14,3 +14,4 @@ class Dog
      "#{@name} #{@breed}".strip
    end
 end
+breed=Dog.new("Mutt")
