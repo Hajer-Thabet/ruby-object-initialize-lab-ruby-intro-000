@@ -14,4 +14,3 @@ class Dog
      "#{@name} #{@breed}".strip
    end
 end
-
