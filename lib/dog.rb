@@ -2,7 +2,7 @@
 class Dog
   def initialize(name)
     @name=name
-  
+
   end
   def initialize( breed)
 
@@ -18,4 +18,3 @@ class Dog
      "#{@name} #{@breed}".strip
    end
 end
-
