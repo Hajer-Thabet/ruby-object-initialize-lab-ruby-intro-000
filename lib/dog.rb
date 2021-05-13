@@ -14,3 +14,5 @@ class Dog
      "#{@name} #{@breed}".strip
    end
 end
+breed_name=Dog.new
+breed_name.breed="Mutt"
