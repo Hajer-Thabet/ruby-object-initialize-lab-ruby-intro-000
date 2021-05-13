@@ -7,8 +7,8 @@ class Dog
   end
   
 
-  def nameb=(nameb)
-    name, breed=nameb.split
+  def name, breed =(name,breed)
+  
     @name=name
     @breed=breed
   end
