@@ -1,9 +1,13 @@
 
 class Dog
-  def initialize(name, breed)
+  def initialize(name, breed="Mutt")
     @name=name
     @breed = breed
 
+  end
+
+  def name=name
+    @name=name
   end
 
 
@@ -11,9 +15,11 @@ class Dog
 
     @breed=breed
   end
+  def name
+    @name
+  end
   def breed
      @breed
    end
 end
-fido = Dog.new("Fido","Mutt")
-fido.instance_variable_set(:@breed, "Mutt")
+
