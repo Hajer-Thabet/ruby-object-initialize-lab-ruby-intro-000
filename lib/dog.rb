@@ -14,5 +14,5 @@ class Dog
      "#{@name} #{@breed}".strip
    end
 end
-breed_name=Dog.new
-breed_name.nameb="Mutt"
+breed_name=Dog.new("Mutt")
+
