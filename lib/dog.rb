@@ -16,4 +16,5 @@ class Dog
      "#{@name} #{@breed}".strip
    end
 end
-Dog.new("Mutt")
+fodi= Dog.new("Mutt")
+fodi.instance_variable_set(:@breed, "Mutt")
