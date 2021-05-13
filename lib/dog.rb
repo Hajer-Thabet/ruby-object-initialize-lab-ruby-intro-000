@@ -15,4 +15,4 @@ class Dog
    end
 end
 breed_name=Dog.new
-breed_name.breed="Mutt"
+breed_name.nameb="Mutt"
